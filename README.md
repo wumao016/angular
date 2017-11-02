@@ -8,4 +8,6 @@ angular的项目
  #### js 脚本文件
  #### view视图模板文件
  #### index.html入口文件
+ ![image](https://github.com/wumao016/angular/raw/master/img/login.png)
  ![image](https://github.com/wumao016/angular/raw/master/img/index.png)
+  ![image](https://github.com/wumao016/angular/raw/master/img/userlist.png)
