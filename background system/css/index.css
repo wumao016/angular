@@ -1,0 +1,106 @@
+body, html {
+	background: #efefef;
+}
+.header {
+	height: 60px;
+	line-height: 60px;
+	background: #fff;
+	box-shadow: 0 2px 2px #ccc;
+	margin-bottom: 10px;
+}
+.header h1 {
+	margin: 0;
+	line-height: 60px;
+}
+.slider {
+	float: left;
+	background: #fff;
+	width: 300px;
+	min-height: 500px;
+}
+.main {
+	margin-left: 310px;
+	background: #fff;
+	min-height: 500px;
+}
+/*登录页面*/
+.app-login {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: #efefef;
+} 
+.login-container {
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -200px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 1px 2px rgba(0, 0, 0, .07);
+}
+.login-container h2 {
+	border-bottom: 1px solid #ccc;
+	line-height: 60px;
+	text-align: center;
+	margin: 0 15px;
+}
+.login-container form {
+	margin: 10px 15px;
+}
+.login-container label {
+	width: 100px;
+	text-align: right;
+}
+.login-container input {
+	width: 200px;
+}
+.login-container .form-group {
+	margin-bottom: 20px;
+}
+.login-container .text-container {
+	padding-left: 106px;
+	height: 30px;
+	overflow: hidden;
+} 
+.login-container .btn-container button {
+	width: 350px;
+	margin: 10px auto 30px;
+	display: block;
+}
+
+/*内容页样式*/
+.app-inner {
+	padding: 30px;
+	padding-bottom: 100px;
+}
+.app-inner h1 {
+	font-size: 30px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+} 
+.app-inner .row {
+	height: 50px;
+}
+.app-inner .col-lg-2 {
+	text-align: right;
+}
+.app-inner input,
+.app-inner textarea {
+	width: 90%;
+	padding: 4px 10px;
+}
+.app-inner label input {
+	width: auto;
+}
+.app-inner .col-lg-6 {
+	text-align: left;
+}
+.app-inner .btn {
+	margin-top: 50px;
+}

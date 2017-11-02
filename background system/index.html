@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台管理系统</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body ng-app="myApp">
+	<div class="header">
+		<div class="container">
+			<p class="pull-right">
+				<span>您好，欢迎回来！</span>
+				<span ng-bind="username"></span>
+				<a href="action/logout.php">退出</a>
+			</p>
+			<h1>迷之管理系统</h1>
+		</div>
+	</div>
+	<div class="slider" ng-controller="navCtrl">
+		<ul>
+			<li ng-repeat="item in list">
+				<h3 ng-bind="item.title" ng-click="toggleList($event)"></h3>
+				<ul>
+					<li ng-repeat="childItem in item.childList"><a ng-href="{{childItem.link}}" ng-bind="childItem.title"></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="main" ui-view></div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/angular-1-4-1.js"></script>
+	<script type="text/javascript" src="js/angular-ui-router.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
